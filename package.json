@@ -11,7 +11,17 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^5.2.1",
     "mongoose": "^9.7.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashkumar6205/MAJORPROJECT.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akashkumar6205/MAJORPROJECT/issues"
+  },
+  "homepage": "https://github.com/akashkumar6205/MAJORPROJECT#readme"
 }
