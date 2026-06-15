@@ -12,10 +12,11 @@
   "type": "commonjs",
   "dependencies": {
     "ejs": "^3.1.10",
+    "ejs-mate": "^4.0.0",
     "express": "^5.2.1",
+    "method-override": "^3.0.0",
     "mongoose": "^9.7.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/akashkumar6205/MAJORPROJECT.git"
