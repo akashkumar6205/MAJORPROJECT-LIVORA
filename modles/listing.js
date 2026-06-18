@@ -9,9 +9,11 @@ const listingSchema = new Schema({
     },
     description: String,
     image: {
-        default: "https://unsplash.com/photos/symmetrical-building-atrium-with-a-glass-skylight-looking-upwards-7xKmidpErYE",
+        default: "https://images.unsplash.com/photos-symmetrical-building-atrium-with-a-glass-skylight-looking-upwards-7xKmidpErYE",
         type: String,
-        set: (v) => v === "" ? "https://unsplash.com/photos/symmetrical-building-atrium-with-a-glass-skylight-looking-upwards-7xKmidpErYE" : v,
+        set: (v) => 
+            v === "" 
+        ? "https://unsplash.com/photos/symmetrical-building-atrium-with-a-glass-skylight-looking-upwards-7xKmidpErYE" : v,
     },
     price: Number,
     location: String,

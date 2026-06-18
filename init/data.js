@@ -2,7 +2,7 @@ const sampleListing  =  [
   {
     title: "Luxury Beach Villa",
     description: "A stunning beachfront villa with private pool and ocean views.",
-    image: "https://unsplash.com/photos/brown-wooden-lounge-chairs-near-pool-surrounded-by-palm-trees-vmIWr0NnpCQ",
+    image:"/images/image.jpg",
     price: 15000,
     location: "Goa",
     country: "India"
@@ -10,7 +10,7 @@ const sampleListing  =  [
   {
     title: "Mountain Retreat Cottage",
     description: "Peaceful cottage surrounded by mountains and lush greenery.",
-    image: "https://unsplash.com/photos/sunloungers-fronting-buildings-near-mountain-DGa0LQ0yDPc",
+    image: "/images/image1.jpg",
     price: 7000,
     location: "Manali",
     country: "India"
@@ -18,7 +18,7 @@ const sampleListing  =  [
   {
     title: "Modern City Apartment",
     description: "Stylish apartment in the city center with premium amenities.",
-    image: "https://unsplash.com/photos/person-in-swimming-pool-during-daytime-rlwE8f8anOc",
+    image: "/images/image2.jpg",
     price: 5000,
     location: "Mumbai",
     country: "India"
@@ -26,7 +26,7 @@ const sampleListing  =  [
   {
     title: "Lakefront Cabin",
     description: "Cozy wooden cabin overlooking a beautiful lake.",
-    image: "https://unsplash.com/photos/photo-of-brown-bench-near-swimming-pool-Koei_7yYtIo",
+    image: "/images/image3.jpg",
     price: 6500,
     location: "Nainital",
     country: "India"
@@ -34,7 +34,7 @@ const sampleListing  =  [
   {
     title: "Luxury Hotel Suite",
     description: "Elegant hotel suite with panoramic city views.",
-    image: "https://unsplash.com/photos/brown-wooden-table-and-chairs-on-brown-wooden-deck-near-body-of-water-during-daytime-TAgGZWz6Qg8",
+    image: "/images/image4.jpg",
     price: 12000,
     location: "Dubai",
     country: "UAE"
@@ -42,7 +42,7 @@ const sampleListing  =  [
   {
     title: "Private Beach House",
     description: "Exclusive beach house with direct access to the shoreline.",
-    image: "https://unsplash.com/photos/3d-render-of-commercial-building-interior-and-reception-1FLlNc1C-2s",
+    image: "/images/image5.jpg",
     price: 18000,
     location: "Malé",
     country: "Maldives"
@@ -50,7 +50,7 @@ const sampleListing  =  [
   {
     title: "Heritage Haveli",
     description: "Traditional haveli showcasing rich cultural heritage.",
-    image: "https://unsplash.com/photos/coconut-palm-trees-in-hotel-lobby-_dS27XGgRyQ",
+    image: "/images/image6.jpg",
     price: 8500,
     location: "Jaipur",
     country: "India"
@@ -58,7 +58,7 @@ const sampleListing  =  [
   {
     title: "Desert Luxury Camp",
     description: "Luxury tents offering an unforgettable desert experience.",
-    image: "https://unsplash.com/photos/blue-body-of-water-in-front-of-building-near-trees-during-nighttime-M7GddPqJowg",
+    image: "/images/image7.jpg",
     price: 9000,
     location: "Jaisalmer",
     country: "India"
@@ -66,7 +66,7 @@ const sampleListing  =  [
   {
     title: "Ocean View Room",
     description: "Comfortable hotel room with breathtaking ocean views.",
-    image: "https://unsplash.com/photos/two-chairs-sitting-in-front-of-a-swimming-pool-k_My4rXk4Lc",
+    image: "/images/image8.jpg",
     price: 6000,
     location: "Bali",
     country: "Indonesia"
@@ -74,7 +74,7 @@ const sampleListing  =  [
   {
     title: "Farmhouse Escape",
     description: "Relax in a countryside farmhouse with open green spaces.",
-    image: "https://unsplash.com/photos/white-and-brown-concrete-building-CepDpEiALqM",
+    image: "/images/image9.jpg",
     price: 4000,
     location: "Punjab",
     country: "India"
@@ -82,7 +82,7 @@ const sampleListing  =  [
   {
     title: "Treehouse Adventure",
     description: "Unique treehouse stay nestled in a tropical forest.",
-    image: "https://unsplash.com/photos/brown-wooden-lounge-chairs-on-brown-wooden-dock-during-daytime-xEaAoizNFV8",
+    image: "/images/image10.jpg",
     price: 5500,
     location: "Kerala",
     country: "India"
@@ -90,7 +90,7 @@ const sampleListing  =  [
   {
     title: "Snow Peak Chalet",
     description: "Warm chalet with stunning snow-covered mountain views.",
-    image: "https://unsplash.com/photos/white-bed-linen-with-brown-wooden-bed-frame-67-sOi7mVIk",
+    image: "/images/image11.jpg",
     price: 9500,
     location: "Shimla",
     country: "India"
@@ -98,7 +98,7 @@ const sampleListing  =  [
   {
     title: "Luxury Penthouse",
     description: "Premium penthouse featuring modern interiors and skyline views.",
-    image: "https://unsplash.com/photos/white-building-photographt-MXbM1NrRqtI",
+    image: "/images/image12.jpg",
     price: 20000,
     location: "New York",
     country: "USA"
@@ -106,7 +106,7 @@ const sampleListing  =  [
   {
     title: "Island Resort Villa",
     description: "Private villa located on a tropical island resort.",
-    image: "https://unsplash.com/photos/brown-and-white-wooden-house-near-swimming-pool-during-daytime-_twiIcIsp2s",
+    image: "/images/image13.jpg",
     price: 22000,
     location: "Phuket",
     country: "Thailand"
@@ -114,7 +114,7 @@ const sampleListing  =  [
   {
     title: "Seaside Cottage",
     description: "Charming cottage just steps away from the beach.",
-    image: "https://unsplash.com/photos/pool-surrounded-with-trees-and-gazebos-1tyuLfDOnG0",
+    image: "/images/image14.jpg",
     price: 6500,
     location: "Pondicherry",
     country: "India"
@@ -122,7 +122,7 @@ const sampleListing  =  [
   {
     title: "Luxury Jungle Lodge",
     description: "Immerse yourself in nature with a luxury jungle stay.",
-    image: "https://unsplash.com/photos/an-aerial-view-of-a-resort-pool-with-palm-trees-rbFxv8GUEt4",
+    image: "/images/image15.jpg",
     price: 11000,
     location: "Bandhavgarh",
     country: "India"
@@ -130,7 +130,7 @@ const sampleListing  =  [
   {
     title: "Downtown Studio",
     description: "Compact and modern studio apartment in the city center.",
-    image: "https://unsplash.com/photos/brown-wooden-lounge-chairs-near-body-of-water-during-daytime-oyxsG2Lh_uA",
+    image: "/images/image16.jpg",
     price: 3500,
     location: "Bangalore",
     country: "India"
@@ -138,7 +138,7 @@ const sampleListing  =  [
   {
     title: "Cliffside Villa",
     description: "Villa perched on a cliff with stunning sea views.",
-    image: "https://unsplash.com/photos/aerial-photography-of-resort-8sKTHeGgrUM",
+    image: "/images/image17.jpg",
     price: 17000,
     location: "Santorini",
     country: "Greece"
@@ -146,7 +146,7 @@ const sampleListing  =  [
   {
     title: "Riverside Homestay",
     description: "Comfortable homestay along a peaceful riverside.",
-    image: "https://unsplash.com/photos/blue-outdoor-pool-hDbCjHNdF48",
+    image: "/images/image18.jpg",
     price: 3000,
     location: "Rishikesh",
     country: "India"
@@ -154,7 +154,7 @@ const sampleListing  =  [
   {
     title: "Royal Palace Stay",
     description: "Live like royalty in this converted palace hotel.",
-    image: "https://unsplash.com/photos/brown-wooden-chair-on-brown-wooden-deck-AH8zKXqFITA",
+    image: "/images/image19.jpg",
     price: 25000,
     location: "Udaipur",
     country: "India"
@@ -162,7 +162,7 @@ const sampleListing  =  [
   {
     title: "Beachfront Resort Room",
     description: "Spacious room in a luxury beachfront resort.",
-    image: "https://unsplash.com/photos/a-hotel-sign-lit-up-at-night-on-a-building-4BmLZn1eY70",
+    image: "/images/image20.jpg",
     price: 10000,
     location: "Goa",
     country: "India"
@@ -170,7 +170,7 @@ const sampleListing  =  [
   {
     title: "Modern Loft",
     description: "Stylish loft apartment with contemporary decor.",
-    image: "https://unsplash.com/photos/thatch-huts-and-houses-by-the-pool-during-day--27u_GzlAFw",
+    image: "/images/image21.jpg",
     price: 5500,
     location: "Delhi",
     country: "India"
@@ -178,7 +178,7 @@ const sampleListing  =  [
   {
     title: "Forest Cabin",
     description: "Rustic cabin surrounded by dense forest.",
-    image: "https://unsplash.com/photos/swimming-pool-near-ocean-2gOxKj594nM",
+    image: "/images/image22.jpg",
     price: 5000,
     location: "Coorg",
     country: "India"
@@ -186,7 +186,7 @@ const sampleListing  =  [
   {
     title: "Luxury Marina Apartment",
     description: "Apartment overlooking a beautiful marina.",
-    image: "https://unsplash.com/photos/resort-viewing-blue-sea-under-blue-and-white-sky-during-daytime-425b2PhNuHA",
+    image: "/images/image23.jpg",
     price: 14000,
     location: "Dubai Marina",
     country: "UAE"
@@ -194,7 +194,7 @@ const sampleListing  =  [
   {
     title: "Countryside Villa",
     description: "Spacious villa in a peaceful countryside setting.",
-    image: "https://unsplash.com/photos/woman-on-body-of-water-during-daytime-0653_wY0nRc",
+    image: "/images/image24.jpg",
     price: 7500,
     location: "Tuscany",
     country: "Italy"
@@ -202,7 +202,7 @@ const sampleListing  =  [
   {
     title: "Boutique Hotel Room",
     description: "Elegant room in a charming boutique hotel.",
-    image: "https://unsplash.com/photos/3d-render-of-luxury-hotel-lobby-and-reception-XY67nVDY8dk",
+    image: "/images/image25.jpg",
     price: 6500,
     location: "Paris",
     country: "France"
@@ -210,7 +210,7 @@ const sampleListing  =  [
   {
     title: "Hilltop Cottage",
     description: "Cottage located on a hilltop with panoramic views.",
-    image: "https://unsplash.com/photos/brown-wooden-bed-frame-with-white-and-red-floral-bed-linen-2P_ifaetDm0",
+    image: "/images/image26.jpg",
     price: 7000,
     location: "Mussoorie",
     country: "India"
@@ -218,7 +218,7 @@ const sampleListing  =  [
   {
     title: "Luxury Ski Chalet",
     description: "Perfect winter getaway near famous ski slopes.",
-    image: "https://unsplash.com/photos/a-bedroom-with-a-view-of-the-mountains-AAZaK31x6FM",
+    image: "/images/image27.jpg",
     price: 18000,
     location: "Zermatt",
     country: "Switzerland"
@@ -226,7 +226,7 @@ const sampleListing  =  [
   {
     title: "Beach Bungalow",
     description: "Relaxing bungalow surrounded by palm trees.",
-    image: "https://unsplash.com/photos/gray-bedsprea-w72a24brINI",
+    image: "/images/image28.jpg",
     price: 6000,
     location: "Langkawi",
     country: "Malaysia"
@@ -234,7 +234,7 @@ const sampleListing  =  [
   {
     title: "Urban Condo",
     description: "Modern condo close to shopping and entertainment.",
-    image: "https://unsplash.com/photos/bench-and-dining-table-near-body-of-water-under-calm-sky-YC8qqp50BdA",
+    image: "/images/image29.jpg",
     price: 5500,
     location: "Singapore",
     country: "Singapore"
@@ -242,7 +242,7 @@ const sampleListing  =  [
   {
     title: "Lake View Resort",
     description: "Luxury resort offering breathtaking lake views.",
-    image: "https://unsplash.com/photos/white-and-brown-wooden-lounge-chairs-near-swimming-pool-during-daytime-_Ei9f33bQ1A",
+    image: "/images/image30.jpg",
     price: 11000,
     location: "Geneva",
     country: "Switzerland"
@@ -250,7 +250,7 @@ const sampleListing  =  [
   {
     title: "Traditional Ryokan",
     description: "Authentic Japanese inn with cultural experiences.",
-    image: "https://unsplash.com/photos/two-gray-sofas-beside-pool-in-room-a8iCZvtrHpQ",
+    image: "/images/image31.jpg",
     price: 13000,
     location: "Kyoto",
     country: "Japan"
@@ -258,7 +258,7 @@ const sampleListing  =  [
   {
     title: "Coastal Villa",
     description: "Elegant villa located along the scenic coastline.",
-    image: "https://unsplash.com/photos/white-patio-umbrella-near-swimming-pool-during-daytime-M3YuHIpgmSY",
+    image: "/images/image32.jpg",
     price: 16000,
     location: "Amalfi",
     country: "Italy"
@@ -266,7 +266,7 @@ const sampleListing  =  [
   {
     title: "Safari Lodge",
     description: "Luxury accommodation near wildlife reserves.",
-    image: "https://unsplash.com/photos/brown-estate-ssOtyGE8CyE",
+    image: "/images/image33.jpg",
     price: 14000,
     location: "Nairobi",
     country: "Kenya"
@@ -274,7 +274,7 @@ const sampleListing  =  [
   {
     title: "Luxury Houseboat",
     description: "Unique stay experience on a premium houseboat.",
-    image: "https://unsplash.com/photos/white-concrete-building-near-palm-trees-during-daytime-ycyXpdhCnp8",
+    image: "/images/image34.jpg",
     price: 9000,
     location: "Alleppey",
     country: "India"
@@ -282,7 +282,7 @@ const sampleListing  =  [
   {
     title: "Mountain View Villa",
     description: "Villa offering breathtaking views of mountain ranges.",
-    image: "https://unsplash.com/photos/a-group-of-lounge-chairs-and-umbrellas-on-a-patio-ezKnKvpXkYE",
+    image: "/images/image35.jpg",
     price: 12000,
     location: "Leh",
     country: "India"
