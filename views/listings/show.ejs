@@ -76,6 +76,12 @@
                     <p class="card-text"><%= review.rating %> &#11088;</p>
 
                 </div>
+                <form 
+                class="mb-3"
+                method="Post" 
+                action="/listings/<%= listing._id %>/reviews/<%= review._id %>?_method=DELETE">
+                    <button class="btn btn-sm btn-dark">Delete</button>
+                </form>
         </div>
             <% } %>
 
