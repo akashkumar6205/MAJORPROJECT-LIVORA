@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 //index 
-router.get("/", (req, res) => {
+router.get("/j", (req, res) => {
     res.send("Get for posts");
 });
 
