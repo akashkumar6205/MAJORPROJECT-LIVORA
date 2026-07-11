@@ -7,10 +7,15 @@ const ejsMate = require("ejs-mate");
 const ExpressError= require("./utils/ExpressError");
 const session = require("express-session");
 const flash = require("connect-flash");
+const passoprt = require("passport");
+const LocalStrategy = require("passport-local");
+const User = require("./modles/user.js");
 
 
-const listings = require("./routes/listing.js");
-const review = require("./routes/review.js");
+const listingsRouter = require("./routes/listing.js");
+const reviewRouter = require("./routes/review.js");
+const passport = require("passport");
+const userRouter = require("./routes/user.js");
 
 const MONGO_URL = "mongodb://127.0.0.1:27017/Livora";
 
@@ -51,18 +56,36 @@ app.use(session(sessionOption));
 //always use flash above the require the routes
 app.use(flash());
 
+app.use(passport.initialize());
+app.use(passoprt.session());
+passport.use(new LocalStrategy(User.authenticate()));
+
+// use static serialize(to store the info about user related) and deserialize(to remove the info about user related) of model for passport session support
+passport.serializeUser(User.serializeUser());
+passport.deserializeUser(User.deserializeUser());
+
 app.use((req, res, next) => {
     res.locals.success = req.flash("success");
     res.locals.error = req.flash("error");
     next();
 });
 
+app.get("/demouser", async (req, res) => {
+    let fakeUser = new User({
+        email: "akash@gmail.com",
+        username: "akash"
+    });
+    let registeredUser = await User.register(fakeUser, "helloworld");
+    res.send(registeredUser);
+})
+
 app.get("/", (req, res) => {
     res.redirect("/listings");
 });
 
-app.use("/listings", listings);
-app.use("/listings/:id/reviews", review);
+app.use("/listings", listingsRouter);
+app.use("/listings/:id/reviews", reviewRouter);
+app.use("/", userRouter);
 
 app.use((err, req, res, next) => {
     let {statusCode = 500, message = "something went wrong!"} = err;
