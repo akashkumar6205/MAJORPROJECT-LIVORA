@@ -9,7 +9,7 @@ const session = require("express-session");
 const flash = require("connect-flash");
 const passoprt = require("passport");
 const LocalStrategy = require("passport-local");
-const User = require("./modles/user.js");
+const User = require("./models/user.js");
 
 
 const listingsRouter = require("./routes/listing.js");
@@ -70,14 +70,14 @@ app.use((req, res, next) => {
     next();
 });
 
-app.get("/demouser", async (req, res) => {
-    let fakeUser = new User({
-        email: "akash@gmail.com",
-        username: "akash"
-    });
-    let registeredUser = await User.register(fakeUser, "helloworld");
-    res.send(registeredUser);
-})
+// app.get("/demouser", async (req, res) => {
+//     let fakeUser = new User({
+//         email: "akash@gmail.com",
+//         username: "akash"
+//     });
+//     let registeredUser = await User.register(fakeUser, "helloworld");
+//     res.send(registeredUser);
+// })
 
 app.get("/", (req, res) => {
     res.redirect("/listings");
