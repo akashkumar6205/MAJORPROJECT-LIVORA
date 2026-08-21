@@ -29,10 +29,14 @@ module.exports.ShowListing= async (req, res) => {
     };
 
 module.exports.CreateListing = async (req, res, next) => {
-    const newListing = new Listing(req.body.listing);
+    const { image, ...listingData } = req.body.listing;
+    const newListing = new Listing(listingData);
     newListing.owner = req.user._id;
     if (req.file) {
-        newListing.image = req.file.path;
+        newListing.image = {
+            url: req.file.path,
+            filename: req.file.filename,
+        };
     }
     await newListing.save();
     req.flash("success", "New Listing Created!");
@@ -59,9 +63,13 @@ module.exports.DeleteListing = async (req, res) => {
 
 module.exports.UpdateListing = async (req, res) => {
     let {id} = req.params;
-    const update = {...req.body.listing};
+    const { image, ...listingData } = req.body.listing;
+    const update = {...listingData};
     if (req.file) {
-        update.image = req.file.path;
+        update.image = {
+            url: req.file.path,
+            filename: req.file.filename,
+        };
     }
     await Listing.findByIdAndUpdate(id, update);
     req.flash("success", "Listing Updated!");
