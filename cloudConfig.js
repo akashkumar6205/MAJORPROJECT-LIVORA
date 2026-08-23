@@ -11,8 +11,7 @@ const storage = new CloudinaryStorage({
   cloudinary: cloudinary,
   params: {
     folder: 'livora_DEV',
-    allowedformat: ["jpg", "png", "jpeg", "pdf"],
-    process: process.env.CLOUDINARY_API_SECRET,
+    allowed_formats: ["jpg", "png", "jpeg", "pdf"],
   },
 });
 
